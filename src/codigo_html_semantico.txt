@@ -1,0 +1,129 @@
+<header>
+    <h1>Feliz dia dos <span>namorados!</span></h1>
+</header>
+
+<main>
+    <section class="carrossel-section" aria-label="Galeria de Fotos">
+        <div class="container-carrossel">
+            <div class="carrosel" id="img">
+                <!-- Uso de figure para cada imagem -->
+                <figure><img src="./src/image/ft1.jpg" alt="Foto 1"></figure>
+                <figure><img src="./src/image/ft2.jpg" alt="Foto 2"></figure>
+                <figure><img src="./src/image/ft3.jpg" alt="Foto 3"></figure>
+                <figure><img src="./src/image/ft4.jpg" alt="Foto 4"></figure>
+                <figure><img src="./src/image/ft5.jpg" alt="Foto 5"></figure>
+                <figure><img src="./src/image/ft6.jpg" alt="Foto 6"></figure>
+                <figure><img src="./src/image/ft7.jpg" alt="Foto 7"></figure>
+                <figure><img src="./src/image/ft8.jpg" alt="Foto 8"></figure>
+                <figure><img src="./src/image/ft9.jpg" alt="Foto 9"></figure>
+                <figure><img src="./src/image/ft10.jpg" alt="Foto 10"></figure>
+                <figure><img src="./src/image/ft11.jpg" alt="Foto 11"></figure>
+                <figure><img src="./src/image/ft12.jpg" alt="Foto 12"></figure>
+                <figure><img src="./src/image/ft13.jpg" alt="Foto 13"></figure>
+                <figure><img src="./src/image/ft14.jpg" alt="Foto 14"></figure>
+                <!-- Repetições -->
+                <figure><img src="./src/image/ft1.jpg" alt="Foto 1 repetida"></figure>
+                <figure><img src="./src/image/ft2.jpg" alt="Foto 2 repetida"></figure>
+                <figure><img src="./src/image/ft3.jpg" alt="Foto 3 repetida"></figure>
+                <figure><img src="./src/image/ft4.jpg" alt="Foto 4 repetida"></figure>
+                <figure><img src="./src/image/ft5.jpg" alt="Foto 5 repetida"></figure>
+                <figure><img src="./src/image/ft6.jpg" alt="Foto 6 repetida"></figure>
+                <figure><img src="./src/image/ft7.jpg" alt="Foto 7 repetida"></figure>
+                <figure><img src="./src/image/ft8.jpg" alt="Foto 8 repetida"></figure>
+                <figure><img src="./src/image/ft9.jpg" alt="Foto 9 repetida"></figure>
+                <figure><img src="./src/image/ft10.jpg" alt="Foto 10 repetida"></figure>
+                <figure><img src="./src/image/ft11.jpg" alt="Foto 11 repetida"></figure>
+                <figure><img src="./src/image/ft12.jpg" alt="Foto 12 repetida"></figure>
+                <figure><img src="./src/image/ft13.jpg" alt="Foto 13 repetida"></figure>
+                <figure><img src="./src/image/ft14.jpg" alt="Foto 14 repetida"></figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-nos" aria-labelledby="titulo-sobre">
+        <header class="titulo">
+            <h2 id="titulo-sobre">Elizabeth <span>&</span> Gabriella</h2>
+        </header>
+        <article class="texto-secundario">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aspernatur in nihil amet! Itaque
+                aut maxime deleniti? Fugit vero id, molestias perspiciatis, incidunt nulla ducimus voluptatum
+                magni modi eius voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, vel doloribus enim qui possimus
+                minus illum vero ad numquam beatae provident, magni eligendi quaerat architecto aliquid porro?
+                Corrupti, ipsam quo.</p>
+        </article>
+    </section>
+
+    <section class="contagem" aria-labelledby="titulo-contagem">
+        <h2 id="titulo-contagem">Compartilhando momentos há</h2>
+
+        <div class="contagem-tempo">
+            <div>
+                <span id="anos">00</span>
+                <span class="tempo">Anos</span>
+            </div>
+            <div>
+                <span id="meses">00</span>
+                <span class="tempo">Meses</span>
+            </div>
+            <div>
+                <span id="dias">00</span>
+                <span class="tempo">Dias</span>
+            </div>
+            <div>
+                <span id="horas">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+            <div>
+                <span id="minutos">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+            <div>
+                <span id="segundos">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
+        </div>
+
+        <p>Oficial desde 19 de setembro 2024</p>
+    </section>
+
+    <section class="musicas" aria-labelledby="titulo-musicas">
+        <h2 id="titulo-musicas">Músicas que me lembram você</h2>
+
+        <div class="content-musicas">
+            <article class="musica">
+                <h3>Coisa Linda</h3>
+                <p><strong>Tiago Iorc</strong></p>
+                <blockquote>
+                    <p>"Linda do jeito que é<br>
+                    Da cabeça ao pé<br>
+                    Do jeitinho que for<br>
+                    É, e só de pensar<br>
+                    Sei que já vou estar<br>
+                    Morrendo de amor<br>
+                    De amor"</p>
+                </blockquote>
+            </article>
+
+            <article class="musica">
+                <h3>Um Amor Puro</h3>
+                <p><strong>Djavan</strong></p>
+                <blockquote>
+                    <p>"O que há dentro do meu coração<br>
+                    Eu tenho guardado pra te dar...<br>
+                    É teu e de mais ninguém"</p>
+                </blockquote>
+            </article>
+
+            <article class="musica">
+                <h3>I Wanna Be Yours</h3>
+                <p><strong>Arctic Monkeys</strong></p>
+                <blockquote>
+                    <p>"I wanna be your vacuum cleaner<br>
+                    Breathing in your dust...<br>
+                    I just wanna be yours"</p>
+                </blockquote>
+            </article>
+        </div>
+    </section>
+</main>

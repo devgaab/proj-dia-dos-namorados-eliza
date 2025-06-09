@@ -37,9 +37,9 @@ const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
-const dataConhecimento = new Date('2024-09-19T00:00:00');
+const dataConhecimento = new Date('2024-05-07T19:00:00');
 
-// Função que calcula o cempo decorrido
+// Função que calcula o tempo decorrido
 const contagem = setInterval(function time() {
     let agora = new Date();
     let diferenca = agora - dataConhecimento;

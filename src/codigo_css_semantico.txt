@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background-color: var(--bcg-color-primary);
+    font-family: var(--font-secondary);
+    color: var(--text-color-secondary);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .carrossel-section,
+main .sobre-nos,
+main .contagem,
+main .musicas {
+    width: 500px;
+    padding: 20px 0;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Carrossel */
+.container-carrossel {
+    overflow: hidden;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.carrosel {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    animation: animaCarrossel 18s linear infinite;
+}
+
+.carrosel figure {
+    margin: 0;
+}
+
+.carrosel img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 200px;
+}
+
+@keyframes animaCarrossel {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Sobre nós */
+.sobre-nos {
+    text-align: center;
+}
+
+.sobre-nos .titulo {
+    font-family: var(--font-primary);
+    font-size: 20px;
+    color: var(--text-color-primary);
+    margin-bottom: 10px;
+}
+
+.sobre-nos .titulo span {
+    font-size: 19px;
+}
+
+.sobre-nos .texto-secundario {
+    width: 380px;
+    font-size: 16px;
+}
+
+/* Contagem */
+.contagem {
+    width: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contagem-tempo {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+}
+
+.contagem-tempo div {
+    background-color: var(--bcg-color-secondary);
+    width: 160px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contagem-tempo span {
+    font-size: 28px;
+}
+
+.contagem-tempo span.tempo {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.contagem p {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+
+/* Músicas */
+.musicas h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--text-color-primary);
+}
+
+.content-musicas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.musica {
+    background-color: var(--bcg-color-secondary);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.musica h3 {
+    font-size: 18px;
+    color: var(--text-color-primary);
+    margin-bottom: 5px;
+}
+
+.musica p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.musica blockquote {
+    font-style: italic;
+    color: var(--text-color-secondary);
+    margin-top: 10px;
+}

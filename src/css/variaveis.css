@@ -1,8 +1,21 @@
 :root {
-    --bcg-color-primary: #141414;
-    --bcg-color-secondary: #0c0c0c;
-    --text-color-primary: #FF2400;
+    --bcg-color-primary: #6b9071;
+    --bcg-color-secondary: #375534;
+    --text-color-primary: #0A311C;
     --text-color-secondary: #ffffff;
     --font-primary: "Dancing Script", serif;
     --font-secondary: "Bitter", serif;
 }
+
+/* #0D2A18,#0A311C */
+/* --bcg-color-primary: #141414;
+    --bcg-color-secondary: #0c0c0c;
+    --text-color-primary: #FF2400;
+    --text-color-secondary: #ffffff; */
+
+/* verde bem escuro - #0f2a1d
+    verde medio - #375534
+    verde claro - #6b9071
+    cinza - #aec3b0
+    branco - #e3eed4
+*/
