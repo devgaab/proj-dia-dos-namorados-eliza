@@ -46,7 +46,7 @@ main .container {
     gap: 25px;
 }
 
-.container-carrossel {
+/* .container-carrossel {
     overflow: hidden;
     width: 400px;
     height: 250px;
@@ -79,6 +79,45 @@ main .container {
     100% {
         transform: translateX(-50%);
     }
+} */
+
+.container-carrossel {
+    overflow: hidden;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+.carrosel {
+    display: inline-block;
+    white-space: nowrap;
+    animation: animaCarrossel 60s linear infinite;
+}
+
+.carrosel img {
+    display: inline-block;
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 5px; /* espaçamento manual (substitui gap) */
+    object-fit: cover;
+}
+
+/* animação suave */
+@keyframes animaCarrossel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.container-carrossel:hover .carrosel {
+    animation-play-state: paused;
 }
 
 .texto {
