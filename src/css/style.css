@@ -23,6 +23,8 @@ header {
     text-align: center;
     font-family: var(--font-primary);
     border-radius: 10px 0;
+
+    box-shadow: var(--shadow-secondary);
 }
 
 header h1 {
@@ -110,6 +112,10 @@ main .container {
     margin-top: 10px;
 }
 
+.contagem .titulo-principal, .musicas h2 {
+    text-shadow: var(--shadow-secondary);
+}
+
 .contagem-tempo {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
@@ -128,6 +134,8 @@ main .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    box-shadow: var(--shadow-primary);
 }
 
 .contagem-tempo span {
@@ -177,6 +185,8 @@ main .container {
     gap: 40px;
     border-radius: 10px;
     padding: 16px 10px 16px 0;
+
+    box-shadow: var(--shadow-primary);
 }
 
 .txt-musica {
@@ -209,12 +219,6 @@ main .container {
     align-items: center;
 }
 
-/* .separador {
-    width: 100px;
-    height: 200px;
-} */
-
-
 footer .txt-footer{
     /* background-color: var(--bcg-color-secondary); */
     /* position: fixed; */
@@ -237,6 +241,8 @@ footer .txt-footer{
     font-family: var(--font-primary);
     font-size: 24px;
     border-radius: 10px 0;
+
+    box-shadow: var(--shadow-secondary);
 }
 
 /* footer .container-music { */
