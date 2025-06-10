@@ -36,7 +36,6 @@ header span {
 }
 
 main .container {
-    /* background-color: blueviolet; */
     width: 500px;
     padding: 20px 0;
     margin-bottom: 70px;
@@ -45,41 +44,6 @@ main .container {
     align-items: center;
     gap: 25px;
 }
-
-/* .container-carrossel {
-    overflow: hidden;
-    width: 400px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.carrosel {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: start;
-    width: auto;
-    animation: animaCarrossel 40s linear infinite;
-}
-
-.carrosel img {
-    object-fit: cover;
-    border-radius: 10px;
-    height: 200px;
-}
-
-@keyframes animaCarrossel {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
-} */
 
 .container-carrossel {
     overflow: hidden;
@@ -103,7 +67,6 @@ main .container {
     width: auto;
     border-radius: 10px;
     margin-right: 5px;
-    /* espaçamento manual (substitui gap) */
     object-fit: cover;
 }
 
@@ -130,7 +93,6 @@ main .container {
     font-family: var(--font-primary);
     font-size: 20px;
     color: var(--text-color-primary);
-    /* color: #0A311C; */
     margin-bottom: 10px;
 }
 
@@ -144,7 +106,6 @@ main .container {
 }
 
 .contagem {
-    /* background-color: goldenrod; */
     width: 380px;
     text-align: center;
     display: flex;
@@ -196,9 +157,7 @@ main .container {
     color: var(--text-color-primary);
 }
 
-
 .musicas {
-    /* background-color: black; */
     width: 500px;
     text-align: center;
     margin-top: 30px;
@@ -206,11 +165,9 @@ main .container {
 
 .musicas h2 {
     margin-bottom: 20px;
-    /* text-decoration: underline 1.5px; */
 }
 
 .content-musicas {
-    /* background-color: palevioletred; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -223,11 +180,9 @@ main .container {
     background-color: var(--bcg-color-secondary);
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 40px;
     border-radius: 10px;
     padding: 16px 10px 16px 0;
-
     box-shadow: var(--shadow-primary);
 }
 
@@ -237,7 +192,6 @@ main .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: blueviolet; */
 }
 
 .txt-musica h3 {
@@ -253,8 +207,6 @@ main .container {
 
 .musica p {
     width: 200px;
-    /* height: 150px; */
-    /* background-color: crimson; */
     text-align: start;
     font-size: 14px;
     display: flex;
@@ -262,18 +214,6 @@ main .container {
 }
 
 footer .txt-footer {
-    /* background-color: var(--bcg-color-secondary); */
-    /* position: fixed; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* width: 200px;
-    height: 70px; */
-    /* padding-bottom: 5px; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* z-index: 1000; */
-
     background-color: var(--bcg-color-tertiary);
     width: 200px;
     margin-bottom: 40px;
@@ -283,44 +223,5 @@ footer .txt-footer {
     font-family: var(--font-primary);
     font-size: 24px;
     border-radius: 10px 0;
-
     box-shadow: var(--shadow-secondary);
 }
-
-/* footer .container-music { */
-/* border: 1px solid red; */
-/* width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 30px; */
-/* } */
-
-/* footer .player-musica button { */
-/* width: 36px;
-    height: 36px;
-    border-radius: 40%; */
-/* border-radius: 31% 69% 63% 37% / 53% 57% 43% 47% ; */
-/* border-radius: 10px; */
-/* background-color: var(--text-color-primary);
-    color: var(--text-color-secondary);
-    cursor: pointer; */
-/* } */
-
-/* footer .player-musica button i {
-    font-size: 20px;
-}
-
-footer .info-music {
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-footer .info-music span {
-    font-weight: 600;
-}
-
-footer .info-music p {
-    font-size: 12px;
-    font-weight: 100;
-} */

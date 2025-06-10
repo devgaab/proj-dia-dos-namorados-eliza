@@ -1,34 +1,3 @@
-// const anos = document.getElementById('anos');
-// const meses = document.getElementById('meses');
-// const dias = document.getElementById('dias');
-// const horas = document.getElementById('horas');
-// const minutos = document.getElementById('minutos');
-// const segundos = document.getElementById('segundos');
-
-// const contagem = setInterval(function time() {
-//     let dateToday = new Date();
-//     let ans = dateToday.getYear();
-//     let mes = dateToday.getMonth();
-//     let ds = dateToday.getDay();
-//     let hrs = dateToday.getHours();
-//     let min = dateToday.getMinutes();
-//     let seg = dateToday.getSeconds();
-
-//     if (ans < 10) ans = '0' + ans;
-//     if (mes < 10) mes = '0' + mes;
-//     if (ds < 10) ds = '0' + ds;
-//     if (hrs < 10) hrs = '0' + hrs;
-//     if (min < 10) min = '0' + min;
-//     if (seg < 10) seg = '0' + seg;
-
-//     anos.textContent = ans;
-//     meses.textContent = mes;
-//     dias.textContent = ds;
-//     horas.textContent = hrs;
-//     minutos.textContent = min;
-//     segundos.textContent = seg;
-// });
-
 // Seleção de elementos do HTML
 const anos = document.getElementById('anos');
 const meses = document.getElementById('meses');
