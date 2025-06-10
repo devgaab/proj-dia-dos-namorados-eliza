@@ -101,8 +101,14 @@ main .container {
 }
 
 .texto .texto-secundario {
-    width: 380px;
+    width: 400px;
     font-size: 16px;
+    text-shadow: var(--shadow-secondary);
+}
+
+.texto .texto-secundario span {
+    color: var(--text-color-primary);
+    text-shadow: none;
 }
 
 .contagem {
