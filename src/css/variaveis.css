@@ -1,6 +1,7 @@
 :root {
     --bcg-color-primary: #6b9071;
     --bcg-color-secondary: #375534;
+    --bcg-color-tertiary: rgba(55, 85, 52, 0.6);
     --text-color-primary: #0A311C;
     --text-color-secondary: #ffffff;
     --font-primary: "Dancing Script", serif;

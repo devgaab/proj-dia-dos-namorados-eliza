@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgba(55, 85, 52, 0.6);
+    background-color: var(--bcg-color-tertiary);
     width: 200px;
     margin-top: 30px;
     padding: 10px;
@@ -102,7 +102,8 @@ main .container {
     height: 200px;
     width: auto;
     border-radius: 10px;
-    margin-right: 5px; /* espaçamento manual (substitui gap) */
+    margin-right: 5px;
+    /* espaçamento manual (substitui gap) */
     object-fit: cover;
 }
 
@@ -111,6 +112,7 @@ main .container {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -151,7 +153,8 @@ main .container {
     margin-top: 10px;
 }
 
-.contagem .titulo-principal, .musicas h2 {
+.contagem .titulo-principal,
+.musicas h2 {
     text-shadow: var(--shadow-secondary);
 }
 
@@ -258,7 +261,7 @@ main .container {
     align-items: center;
 }
 
-footer .txt-footer{
+footer .txt-footer {
     /* background-color: var(--bcg-color-secondary); */
     /* position: fixed; */
     /* bottom: 0; */
@@ -271,7 +274,7 @@ footer .txt-footer{
     justify-content: center; */
     /* z-index: 1000; */
 
-    background-color: rgba(55, 85, 52, 0.6);
+    background-color: var(--bcg-color-tertiary);
     width: 200px;
     margin-bottom: 40px;
     padding: 14px;
@@ -285,8 +288,8 @@ footer .txt-footer{
 }
 
 /* footer .container-music { */
-    /* border: 1px solid red; */
-    /* width: 400px;
+/* border: 1px solid red; */
+/* width: 400px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -294,12 +297,12 @@ footer .txt-footer{
 /* } */
 
 /* footer .player-musica button { */
-    /* width: 36px;
+/* width: 36px;
     height: 36px;
     border-radius: 40%; */
-    /* border-radius: 31% 69% 63% 37% / 53% 57% 43% 47% ; */
-    /* border-radius: 10px; */
-    /* background-color: var(--text-color-primary);
+/* border-radius: 31% 69% 63% 37% / 53% 57% 43% 47% ; */
+/* border-radius: 10px; */
+/* background-color: var(--text-color-primary);
     color: var(--text-color-secondary);
     cursor: pointer; */
 /* } */
