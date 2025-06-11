@@ -100,7 +100,9 @@ main .container {
     font-size: 19px;
 }
 
-.texto .texto-secundario {
+.texto .texto-secundario,
+.content-musicas .texto-secundario,
+.contagem .texto-secundario {
     width: 400px;
     font-size: 16px;
     text-shadow: var(--shadow-secondary);
@@ -159,7 +161,7 @@ main .container {
 .contagem p {
     font-size: 16px;
     letter-spacing: 1.5px;
-    margin-top: 10px;
+    margin: 10px 0;
     color: var(--text-color-primary);
 }
 
