@@ -2,10 +2,11 @@
     --bcg-color-primary: #6b9071;
     --bcg-color-secondary: #375534;
     --bcg-color-tertiary: rgba(55, 85, 52, 0.6);
+    --bcg-color-heart: #4CAF50;
     --text-color-primary: #0A311C;
     --text-color-secondary: #ffffff;
     --font-primary: "Dancing Script", serif;
     --font-secondary: "Bitter", serif;
     --shadow-primary: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    --shadow-secondary: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;; 
+    --shadow-secondary: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }

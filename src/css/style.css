@@ -38,7 +38,7 @@ header span {
 main .container {
     width: 500px;
     padding: 20px 0;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +221,7 @@ main .container {
     align-items: center;
 }
 
-footer .txt-footer {
+/* footer .txt-footer {
     background-color: var(--bcg-color-tertiary);
     width: 200px;
     margin-bottom: 40px;
@@ -232,4 +232,65 @@ footer .txt-footer {
     font-size: 24px;
     border-radius: 10px 0;
     box-shadow: var(--shadow-secondary);
+} */
+
+.txt-footer {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#love-button {
+    padding: 15px 30px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    font-size: 24px;
+    background-color: var(--bcg-color-tertiary);
+    color: var(--text-color-secondary);
+    border-radius: 10px 0;
+    box-shadow: var(--shadow-secondary);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--bcg-color-heart);
+    transform: rotate(45deg);
+    opacity: 1;
+    animation: floatUp 1s ease-out forwards;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--bcg-color-heart);
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -5px;
+    left: 0;
+}
+
+.heart::after {
+    left: -5px;
+    top: 0;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) scale(1) rotate(45deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-80px) scale(0.5) rotate(45deg);
+        opacity: 0;
+    }
 }

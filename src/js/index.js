@@ -45,3 +45,27 @@ const contagem = setInterval(function time() {
     minutos.textContent = min;
     segundos.textContent = seg;
 }, 1000);
+
+
+// animação de corações no botão
+const button = document.getElementById('love-button');
+
+button.addEventListener('click', () => {
+    for (let i = 0; i < 10; i++) {
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+
+        // posição inicial dentro do botão
+        heart.style.left = `${Math.random() * 100}%`;
+        heart.style.bottom = `0`;
+        heart.style.animationDelay = `${Math.random() * 0.3}s`;
+
+        // adiciona o coração ao botão
+        button.appendChild(heart);
+
+        // remove após animação
+        setTimeout(() => {
+            heart.remove();
+        }, 1000);
+    }
+});
